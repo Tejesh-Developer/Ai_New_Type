@@ -1,0 +1,8 @@
+gradio
+torch
+torchaudio
+numpy
+soundfile
+TTS
+indic-transliteration
+pydub

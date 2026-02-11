@@ -1,0 +1,124 @@
+body {
+    background-color: #0f1117;
+}
+.gradio-container {
+    width: 100vw !important;
+    max-width: 100% !important;
+    margin: 0 !important;
+    padding: 16px 24px !important;
+}
+
+button {
+    background: linear-gradient(90deg, #6a5cff, #8f7cff);
+    color: white;
+} 
+.block, .gr-box {
+    background: #0f172a !important;
+    border: 1px solid #1e293b !important;
+    border-radius: 10px !important;
+    padding: 12px !important;
+}
+
+/* Headings */
+h1, h2 {
+    color: #f8fafc;
+}
+
+/* Inputs */
+textarea, input, select {
+    background: #020617 !important;
+    color: #e5e7eb !important;
+    border: 1px solid #1e293b !important;
+    border-radius: 6px !important;
+}
+
+/* Buttons */
+button {
+    background: #6366f1 !important;
+    color: white !important;
+    border-radius: 6px !important;
+    border: none !important;
+    font-weight: 500 !important;
+}
+
+button:hover {
+    background: #4f46e5 !important;
+}
+
+/* Remove BIG drag card look */
+[data-testid="audio-upload"] {
+    background: transparent !important;
+    border: none !important;
+    padding: 0 !important;
+}
+
+/* Audio player */
+audio {
+    width: 100%;
+} 
+.gr-row {
+    width: 100% !important;
+}
+
+.gr-column {
+    width: 100% !important;
+}
+
+/* ===== TOP HEADER (QWEN STYLE) ===== */
+
+.top-header {
+    width: 100%;
+    padding: 28px 20px;
+    margin-bottom: 20px;
+
+    /* Qwen-like gradient */
+    background: linear-gradient(135deg, #5f6cff, #8b5cf6);
+
+    border-radius: 14px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.top-header h1 {
+    margin: 0;
+    font-size: 32px;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.top-header p {
+    margin: 6px 0 14px;
+    font-size: 15px;
+    color: #e0e7ff;
+}
+
+.top-header .tab-title {
+    background: rgba(0, 0, 0, 0.25);
+    padding: 6px 14px;
+    border-radius: 999px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #ffffff;
+}
+
+.top-header h1 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.top-header p {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.top-header .tab-title {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
