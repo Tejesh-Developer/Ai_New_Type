@@ -60,6 +60,7 @@ Final Audio Output
 
 ## 🛠 Technologies Used
 
+
 - **Python**
 - **Gradio** – Interactive UI framework
 - **gTTS (Google Text-to-Speech)** – Speech synthesis engine
@@ -69,6 +70,7 @@ Final Audio Output
 ---
 
 ## 📦 Installation
+
 
 Clone the repository:
 
@@ -86,6 +88,7 @@ http://127.0.0.1:7860
 
 🎛 Usage
 
+
 Enter the text you want to convert to speech.
 
 Select the language (English / Hindi).
@@ -100,6 +103,7 @@ Listen to the generated speech.
 
 
 📊 Project Highlights
+
 
 Emotion-aware speech synthesis simulation
 
